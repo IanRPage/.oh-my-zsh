@@ -2,7 +2,7 @@
 
 
 
-# This prompt appears when there is a typo in a command, prompt will highlight user typo in red and suggested command in green. Followed by choices as to what user wants to do
+# This prompt appears when there is a typo in a command
 SPROMPT="Would you like to correct %F{red}%R%f to %F{green}%r%f? [Yes, No, Abort, Edit]: "
 
 ############ Setting up the prompt ###############
