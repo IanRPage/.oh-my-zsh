@@ -2,6 +2,8 @@
 # on two lines for easier vgrepping
 # entry in a nice long thread on the Arch Linux forums: https://bbs.archlinux.org/viewtopic.php?pid=521888#p521888
 
+# This prompt appears when there is a typo in a command
+SPROMPT="Would you like to correct %F{red}%R%f to %F{green}%r%f? [Yes, No, Abort, Edit]: "
 
 # The git prompt is going to be tealish (?)
 ZSH_THEME_GIT_PROMPT_PREFIX="%B%F{#0be3e3}"
